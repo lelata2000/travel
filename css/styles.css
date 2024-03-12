@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+*{
+    font-family: "Roboto Slab", serif;
+}
+nav{
+    background-color: gray;
+    padding:10px;
+}
+nav > a{
+    text-decoration: none;
+    color: white;
+}
+nav  :first-child{
+    color: red;
+}
+nav :nth-child(2){
+    margin-left: 200px;
+}
+nav >input{
+    float: right;
+}
+nav > a:hover{
+    color: lightgray;
+}
+.title-news{
+    color: red;    
+    font-weight:bold;
+    font-size: larger;
+}
+table {
+    border: 1px solid gray;
+    margin:100px;
+}
+table td{
+    padding: 20px;
+    
+}
+table tr:last-child{
+    line-height: 100px;
+}
+.footer{
+    background-color: gray;
+    padding:7px;
+    color: white;
+    text-align: center;
+    font-size: larger;
+}
+.title-footer{
+    padding:5px;
+}
+.red{
+    background-color: palevioletred;
+    
+}
+.red:hover{
+    background-color:red;
+}
+.blue{
+    background-color: blue;
+    
+}
+.blue:hover{
+    background-color: rgb(8, 8, 194);
+}
+.violet{
+    background-color: blueviolet;
+}
+.violet:hover{
+    background-color: rgb(81, 15, 143);
+}
+.brown{
+    background-color: burlywood;
+}
+.brown:hover{
+    background-color: rgb(189, 113, 15);
+}
+.title-footer button{
+    padding: 6px;
+    color:white;
+    border: none;
+    font-size: .9em;
+    font-family: inherit;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 10px;
+}
+.note-footer{
+    text-align: left;
+    font-size: small;
+}
